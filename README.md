@@ -14,10 +14,11 @@ Clone the repository and install the dependencies:
 ```
 ### Usage
 
-```Brute Force Attack
-
+Brute Force Attack
+```bash
 python src/brute_force.py
-```
-```Dictionary Attack
 
+```
+Dictionary Attack
+```bash
 python src/dictionary_attack.py
