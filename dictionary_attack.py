@@ -1,5 +1,3 @@
-# src/dictionary_attack.py
-
 def dictionary_attack(target_password, dictionary_file='dictionary.txt'):
     attempts = 0
 
