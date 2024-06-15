@@ -1,5 +1,3 @@
-# src/brute_force.py
-
 import itertools
 import string
 
