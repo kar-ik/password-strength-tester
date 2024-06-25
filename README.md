@@ -7,7 +7,7 @@ This project contains tools to test password strengths using brute force and dic
 Clone the repository and install the dependencies:
 
 ```bash
- git clone https://github.com/your-username/password-strength-tester.git
+ git clone https://github.com/kar-ik/password-strength-tester.git
  cd password-strength-tester
  pip install -r requirements.txt
 
