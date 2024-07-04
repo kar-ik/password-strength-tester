@@ -24,3 +24,10 @@ Dictionary Attack
 ```bash
 python src/dictionary_attack.py
 ```
+### update
+
+To update the tool to the latest version:
+
+```bash
+
+python update_tool.py
