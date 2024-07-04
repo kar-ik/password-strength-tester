@@ -20,7 +20,7 @@ def dictionary_attack(password, dictionary_file):
 
 if __name__ == "__main__":
     
-    dictionaries = ["indianpass-list.txt", "uspass-list.txt", "2000000pass-list.txt"]
+    dictionaries = ["indianpass-list.txt", "uspass-list.txt", "10000000pass-list.txt"]
 
     available_dictionaries = [d for d in dictionaries if os.path.exists(d)]
     if not available_dictionaries:
