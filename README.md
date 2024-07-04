@@ -17,12 +17,12 @@ Clone the repository and install the dependencies:
 
 Brute Force Attack
 ```bash
-python src/brute_force.py
+python brute_force.py
 
 ```
 Dictionary Attack
 ```bash
-python src/dictionary_attack.py
+python dictionary_attack.py
 ```
 ### update
 
