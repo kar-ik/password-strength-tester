@@ -17,12 +17,12 @@ Clone the repository and install the dependencies:
 
 Brute Force Attack
 ```bash
-python brute_force.py
+python src/brute_force.py
 
 ```
 Dictionary Attack
 ```bash
-python dictionary_attack.py
+python src/dictionary_attack.py
 ```
 ### Store Password Securely
 
@@ -30,7 +30,7 @@ To store a password securely:
 
 ```bash
 
-python store_password.py
+python src/store_password.py
 ```
 ```arduino
 
