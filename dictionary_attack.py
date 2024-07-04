@@ -1,16 +1,14 @@
-def dictionary_attack(target_password, dictionary_file='dictionary.txt'):
-    attempts = 0
-
-    with open(dictionary_file, 'r') as f:
-        for line in f:
-            attempts += 1
-            word = line.strip()
-            if word == target_password:
-                return attempts, word
-
-    return attempts, None
+def dictionary_attack(password, dictionary_file='dictionary.txt'):
+    with open(dictionary_file, 'r') as file:
+        for line in file:
+            if line.strip() == password:
+                return password
+    return None
 
 if __name__ == "__main__":
-    target = "password123"
-    attempts, found_password = dictionary_attack(target)
-    print(f"Password found: {found_password} in {attempts} attempts" if found_password else "Password not found")
+    password = input("Enter the password to test: ")
+    result = dictionary_attack(password)
+    if result:
+        print(f"Password found: {result}")
+    else:
+        print("Password not found")
