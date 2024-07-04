@@ -24,16 +24,3 @@ Dictionary Attack
 ```bash
 python src/dictionary_attack.py
 ```
-### Store Password Securely
-
-To store a password securely:
-
-```bash
-
-python src/store_password.py
-```
-```arduino
-
-
-This setup ensures you have a robust tool for testing password strengths while maintaining
-```
