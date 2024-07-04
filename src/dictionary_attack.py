@@ -8,7 +8,7 @@ def dictionary_attack(password, dictionary_file):
     return None
 
 if __name__ == "__main__":
-    dictionaries = ["indianpass.txt", "uspass.txt", "30000000pass.txt"]
+    dictionaries = ["indianpass.txt", "uspass.txt", "10000000pass.txt"]
     
     print("Available dictionaries:")
     for idx, dictionary in enumerate(dictionaries, 1):
